@@ -187,4 +187,4 @@ echo "[!] Mohon Sabar Sedang Proses......................."
 sleep 0.3
 echo $a
 clear
-sh Moreno77.sh
+echo "[!] Ketik sh Moreno77.sh Untuk Jalanin tools" | lolcat
