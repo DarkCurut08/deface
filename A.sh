@@ -18,7 +18,7 @@ blue='\e[1;34m'
 cyan='\e[1;36m'
 red='\e[1;31m'
 green="\033[32;1m"
-
+cd /data/data/com.termux/files/home
 cowsay -f eyes "Moreno77" | lolcat
 figlet -f slant "Moreno77" | lolcat
 echo "    <=====================[]====================>" | lolcat
@@ -228,7 +228,8 @@ echo "[!] Terhack => " $a8/$sc | lolcat
 echo "[!] Terhack => " $a9/$sc | lolcat
 echo "[!] Terhack => " $a10/$sc | lolcat
 ;;
-99) sh Moreno77.sh
+99) cd deface
+sh Moreno77.sh
 ;;
 
 esac
